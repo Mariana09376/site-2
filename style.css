@@ -1,0 +1,48 @@
+body {
+    background-color: #1D4221;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0 20px; /* Espaço para evitar corte do conteúdo nas laterais */
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #64A712;
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    padding: 10px 20px; /* Melhor espaçamento interno */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px; /* Espaçamento entre botões */
+}
+
+button:hover {
+    background-color: #578e10; /* Efeito de hover */
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 600px; /* Limite de largura para melhorar a leitura */
+    width: 100%; /* Responsivo para telas menores */
+}
+
+img {
+    max-width: 100%; /* A imagem não ultrapassa a largura do contêiner */
+    height: auto;
+    border-radius: 8px; /* Borda arredondada para um visual mais agradável */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+}
